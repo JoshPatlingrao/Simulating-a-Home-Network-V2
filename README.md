@@ -1,2 +1,4 @@
 # Simulating-a-Home-Network-V2
-A rebuild of the previous Home Network Simulation.
+
+## Objective
+This project is a rebuild of the previous Home Network Simulation and to display my deeper network knowledge.
