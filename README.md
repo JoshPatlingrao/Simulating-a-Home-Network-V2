@@ -18,3 +18,11 @@ This project is a rebuild of the previous Home Network Simulation and to display
 <p align="center">
   <img alt="Security" src="https://github.com/user-attachments/assets/cdf320de-1595-4edf-9726-64f7c888b95f" />
 </p>
+__Step 1__
+- rtest
+__Step 2__
+- rtest
+__Step 3__
+- rtest
+__Step 4__
+- rtest
