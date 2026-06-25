@@ -19,14 +19,12 @@ This project is a rebuild of the previous Home Network Simulation and to display
   <img alt="Security" src="https://github.com/user-attachments/assets/cdf320de-1595-4edf-9726-64f7c888b95f" />
 </p>
 
-__Step 1__
+__Step 1: Create Admin Account with Privileges__
 - rtest
 
-__Step 2__
+__Step 2: Require Local Database for Logins__
 - rtest
 
-__Step 3__
+__Step 3: Secure Privileged Mode__
 - rtest
 
-__Step 4__
-- rtest
