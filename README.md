@@ -28,3 +28,7 @@ __Step 2: Require Local Database for Logins__
 __Step 3: Secure Privileged Mode__
 - rtest
 
+### Configure Router Gateway Interface
+<p align="center">
+  <img alt="Router Configuration" src="https://github.com/user-attachments/assets/7d1477a1-af18-466c-af7e-3bac47e548ae" />
+</p>
