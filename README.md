@@ -30,5 +30,5 @@ __Step 3: Secure Privileged Mode__
 
 ### Configure Router Gateway Interface
 <p align="center">
-  <img alt="Router Configuration" src="https://github.com/user-attachments/assets/7d1477a1-af18-466c-af7e-3bac47e548ae" />
+  <img alt="Router Configuration" src="https://github.com/user-attachments/assets/b9f96d74-fcf0-4126-b095-05e94850c37e" />
 </p>
