@@ -44,7 +44,7 @@ Pool1: Family Device Pool
 Net: 198.132.221.0/26, Max: 62 Addresses
 DNS: 9.9.9.9
 Default Gateway: 198.132.221.254
-Reserved: .1 - .10
+Reserved: .1 - .10 (For infrastructure and static devices)
 
 Pool2: Guest Device Pool
 Net: 198.132.221.64/27, Max: 30 Addresses
