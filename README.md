@@ -34,12 +34,21 @@ __Step 3: Secure Privileged Mode__
 </p>
 
 ### Configure Static IPv4 and Gateway Address on PC and Printer
+Why were these addresses chosen?
+Class of address?
 <p align="center">
   <img alt="Static IPv4" src="https://github.com/user-attachments/assets/2c18492d-ca0b-482d-a085-2a1aee713762" />
 </p>
 
-__Step 1: Configured Addresses__
+__Step 1: Configured Device Addresses and Gateway__
+All devices will have their gateway address set to 198.132.221.254, for interface G0/0 of the router.
 - Dad Work Station: 198.132.221.1
 - Son PC: 198.132.221.2
 - Daughter PC: 198.132.221.3
 - Family Printer: 198.132.221.4
+
+__Step 2: Confirm Connectivity__
+To confirm that addresses have been configured correctly and have connectivity, all the configured devices should respond to ping. 
+<p align="center">
+  <img alt="Ping" src="https://github.com/user-attachments/assets/52a90d57-21c6-4124-84fc-f0b2e7e7733f" />
+</p>
