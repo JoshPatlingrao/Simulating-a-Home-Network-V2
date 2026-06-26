@@ -74,3 +74,6 @@ To confirm that addresses have been configured correctly and have connectivity, 
 </p>
 
 ### Configure DHCP for Wireless Devices and Work Laptops
+<p align="center">
+  <img alt="DHCP Pools" src="https://github.com/user-attachments/assets/58b02ea2-2280-4f09-a84b-9f4c2e89da90" />
+</p>
