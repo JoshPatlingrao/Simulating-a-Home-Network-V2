@@ -32,3 +32,5 @@ __Step 3: Secure Privileged Mode__
 <p align="center">
   <img alt="Router Configuration" src="https://github.com/user-attachments/assets/b9f96d74-fcf0-4126-b095-05e94850c37e" />
 </p>
+
+### Configure Static IPv4 and Gateway Address on PC and Printer
