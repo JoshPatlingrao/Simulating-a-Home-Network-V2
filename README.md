@@ -41,6 +41,7 @@ Class of address?
 </p>
 
 __Step 1: Configured Device Addresses and Gateway__
+
 All devices will have their gateway address set to 198.132.221.254, for interface G0/0 of the router.
 - Dad Work Station: 198.132.221.1
 - Son PC: 198.132.221.2
@@ -48,6 +49,7 @@ All devices will have their gateway address set to 198.132.221.254, for interfac
 - Family Printer: 198.132.221.4
 
 __Step 2: Confirm Connectivity__
+
 To confirm that addresses have been configured correctly and have connectivity, all the configured devices should respond to ping. 
 <p align="center">
   <img alt="Ping" src="https://github.com/user-attachments/assets/52a90d57-21c6-4124-84fc-f0b2e7e7733f" />
