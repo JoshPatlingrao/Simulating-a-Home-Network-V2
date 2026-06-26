@@ -33,6 +33,23 @@ __Step 3: Secure Privileged Mode__
   <img alt="Router Configuration" src="https://github.com/user-attachments/assets/b9f96d74-fcf0-4126-b095-05e94850c37e" />
 </p>
 
+### Subnetting and DHCP Pools
+Home Network: 198.132.221.0/24, 255.255.255.0
+
+Family Subnet: 198.132.221.0/26, 255.255.255.192
+
+Guest Subnet: 198.132.221.64/27. 255.255.255.224
+
+Pool1: Family Device Pool
+Net: 198.132.221.0/26, Max: 62 Addresses
+DNS: 9.9.9.9
+Default Gateway: 198.132.221.254
+
+Pool2: Guest Device Pool
+Net: 198.132.221.64/27, Max: 30 Addresses
+DNS: 9.9.9.9
+Default Gateway: 198.132.221.254
+
 ### Configure Static IPv4 and Gateway Address on PC and Printer
 Why were these addresses chosen?
 Class of address?
@@ -42,7 +59,7 @@ Class of address?
 
 __Step 1: Configured Device Addresses and Gateway__
 
-All devices will have their gateway address set to 198.132.221.254, for interface G0/0 of the router.
+All devices will have their gateway address set to 198.132.221.254, for interface G0/0 of the router. The 
 - Dad Work Station: 198.132.221.1
 - Son PC: 198.132.221.2
 - Daughter PC: 198.132.221.3
@@ -54,3 +71,5 @@ To confirm that addresses have been configured correctly and have connectivity, 
 <p align="center">
   <img alt="Ping" src="https://github.com/user-attachments/assets/52a90d57-21c6-4124-84fc-f0b2e7e7733f" />
 </p>
+
+### Configure DHCP for Wireless Devices and Work Laptops
