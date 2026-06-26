@@ -37,3 +37,9 @@ __Step 3: Secure Privileged Mode__
 <p align="center">
   <img alt="Static IPv4" src="https://github.com/user-attachments/assets/2c18492d-ca0b-482d-a085-2a1aee713762" />
 </p>
+
+__Step 1: Configured Addresses__
+- Dad Work Station: 198.132.221.1
+- Son PC: 198.132.221.2
+- Daughter PC: 198.132.221.3
+- Family Printer: 198.132.221.4
