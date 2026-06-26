@@ -77,3 +77,12 @@ To confirm that addresses have been configured correctly and have connectivity, 
 <p align="center">
   <img alt="DHCP Pools" src="https://github.com/user-attachments/assets/58b02ea2-2280-4f09-a84b-9f4c2e89da90" />
 </p>
+
+__Step 1: Create VLAN and SVI__
+<p align="center">
+  <img alt="VLAN" src="https://github.com/user-attachments/assets/e2f0be08-0bef-49ea-a87d-2d28dcbb54d0" />
+</p>
+
+<p align="center">
+  <img alt="SVI" src="https://github.com/user-attachments/assets/adab7c15-af5b-4ed3-91c9-29e940c09a02" />
+</p>
