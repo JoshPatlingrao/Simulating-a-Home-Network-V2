@@ -86,3 +86,12 @@ __Step 1: Create VLAN and SVI__
 <p align="center">
   <img alt="SVI" src="https://github.com/user-attachments/assets/adab7c15-af5b-4ed3-91c9-29e940c09a02" />
 </p>
+
+- Enable routing through 'ip routing' command
+- Need to go to interface and use 'no switchport' command
+- Setup IP address for L3 switch interface
+- Setup default route on the L3 switch to point to gateway router
+
+<p align="center">
+  <img alt="Default Route" src="https://github.com/user-attachments/assets/de7b33ec-1f1d-41bf-92e8-59c92b75c234" />
+</p>
