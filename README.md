@@ -39,7 +39,9 @@ Each router and switch has been configured with a display and host name to clear
 </p>
 
 __Step 1: Create Admin Account with Privileges__
-- rtest
+- Create and 'admin' user which is required to be logged in if the switches are to be configured.
+- Apply 'privilege 15' to the account to give it the highest administrative level for network device configuration.
+- Use 'secret' as it applies a cryptographic hash on the password and ensures it can't be read in the configuration file.
 
 __Step 2: Require Local Database for Logins__
 - rtest
