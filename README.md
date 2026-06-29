@@ -11,7 +11,7 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - Subnetting to distribute IP addresses among network and host devices.
 - Configuring VLANs to group devices based on network, using both access and trunk ports.
 - Integration of wireless AP and configuration of SSID and its 2.4GHz channel
-- Static IPv4 and DHCP configuration.
+- Static IPv4 address and DHCP configuration.
 - ACL (ToDo)
   - For the printer only family devices and network can access, not guests
   - Work devices can't be reached by family devices but other devices within their networks can
@@ -25,7 +25,7 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - BPDU Guard (ToDo)
 - DHCP Snooping (ToDo)
 - Synamic ARP Inspect (ToDo)
-- Disable Unused Ports (ToDo)
+- Disabling unused interfaces on routers and switches for enhanced security
 - Banner?
 - Syslog (ToDo)
 - NTP (ToDo)
@@ -131,3 +131,5 @@ __Step 1: Create VLAN and SVI__
 <p align="center">
   <img alt="Disable Unused Ports" src="https://github.com/user-attachments/assets/faeed67f-b1c0-42b1-a30f-20fb82601961" />
 </p>
+
+Unused ports on routers and switches have been disabled to enhance security. This prevents the network devices from being used as either an attack vector or as a source of disruption from unwanted hosts.
