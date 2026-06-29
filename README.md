@@ -31,6 +31,8 @@ This project is a rebuild of the previous Home Network Simulation and to display
   <img alt="SW Name" src="https://github.com/user-attachments/assets/b3b66742-df86-4647-ac9e-0c877b980006">
 </p>
 
+Each router and switch has been configured with a display and host name to clearly distinguish each network device from each other and their current roles.
+
 ### Securing the Switches
 <p align="center">
   <img alt="Security" src="https://github.com/user-attachments/assets/cdf320de-1595-4edf-9726-64f7c888b95f" />
