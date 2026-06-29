@@ -20,6 +20,15 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - VPN for WFH (ToDo)
 - NAT (ToDo)
 - QoS (ToDo)
+- SSH Management (ToDo)
+- Port Security (ToDo)
+- BPDU Guard (ToDo)
+- DHCP Snooping (ToDo)
+- Synamic ARP Inspect (ToDo)
+- Disable Unused Ports (ToDo)
+- Banner?
+- Syslog (ToDo)
+- NTP (ToDo)
 
 ### Tools Used
 - Cisco Packet Tracer
@@ -115,4 +124,10 @@ __Step 1: Create VLAN and SVI__
 
 <p align="center">
   <img alt="Default Route" src="https://github.com/user-attachments/assets/de7b33ec-1f1d-41bf-92e8-59c92b75c234" />
+</p>
+
+
+### Disable Unused Ports
+<p align="center">
+  <img alt="Disable Unused Ports" src="https://github.com/user-attachments/assets/faeed67f-b1c0-42b1-a30f-20fb82601961" />
 </p>
