@@ -12,7 +12,7 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - Configuring VLANs to group devices based on network, using both access and trunk ports.
 - Integration of wireless AP and configuration of SSID and its 2.4GHz channel
 - Static IPv4 address and DHCP configuration.
-- ACL (ToDo)
+- ACL (ToDo Tomorrow)
   - For the printer only family devices and network can access, not guests
   - Work devices can't be reached by family devices but other devices within their networks can
 - Voice VLAN (ToDo)
@@ -23,8 +23,8 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - SSH Management (ToDo)
 - Port Security (ToDo)
 - BPDU Guard (ToDo)
-- DHCP Snooping (ToDo)
-- Synamic ARP Inspect (ToDo)
+- DHCP Snooping (ToDo Tomorrow)
+- Synamic ARP Inspect (ToDo Tomorrow)
 - Disabling unused interfaces on routers and switches for enhanced security
 - Banner?
 - Syslog (ToDo)
