@@ -4,7 +4,22 @@
 This project is a rebuild of the previous Home Network Simulation and to display my deeper network knowledge.
 
 ### Project Notes
+- Any passwords used in this project is merely for the demonstration of my knowledge and understanding of Cisco Packet Tracer and should not be practised on real machines.
+
 ### Skills Learned
+- Securing routers and switches with both local and remote login.
+- Subnetting to distribute IP addresses among network and host devices.
+- Configuring VLANs to group devices based on network, using both access and trunk ports.
+- Integration of wireless AP and configuration of SSID and its 2.4GHz channel
+- Static IPv4 and DHCP configuration.
+- ACL (ToDo)
+  - For the printer only family devices and network can access, not guests
+  - Work devices can't be reached by family devices but other devices within their networks can
+- Voice VLAN (ToDo)
+- WiFi Security (ToDo)
+- VPN for WFH (ToDo)
+- NAT (ToDo)
+- QoS (ToDo)
 
 ### Tools Used
 - Cisco Packet Tracer
