@@ -5,7 +5,9 @@ This project is a rebuild of the previous Home Network Simulation and to display
 
 ### Project Notes
 ### Skills Learned
+
 ### Tools Used
+- Cisco Packet Tracer
 
 ## Steps
 
