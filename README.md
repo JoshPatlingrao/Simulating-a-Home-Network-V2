@@ -65,22 +65,14 @@ __Step 3: Secure Privileged Mode__
 
 ### Subnetting and DHCP Pools
 
-| VLAN  | Network | Subnet | Broadcast Address | Usable Hosts | Gateway (SVI) | DHCP Range |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 | Family | 198.132.221.0/26 | 198.132.221.63 | 62 | 198.132.221.62 | .1 - 62 |
-| 20 | Guest |
-| 30 | Parent |
-| 40 | Son |
-| 50 | Daughter |
-| Transit | Router <-> L3 Switch |
+| VLAN  | Network | Subnet | Usable Hosts | Gateway (SVI) | DHCP Range |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 10 | Family | 198.132.221.0/26 | 62 | 198.132.221.62 | .1 - 61 |
+| 20 | Guest | 198.132.221.64/27 | 30 | 198.132.221.94 | .65 – .93 |
+| 30 | Parent | 198.132.221.96/27 | 30 | 198.132.221.126 | .101 – .122 |
+| 40 | Son | 198.132.221.128/27 | 30 | 198.132.221.158 | .133 – .154 |
+| 50 | Daughter | 198.132.221.160/27 | 30 | 198.132.221.190 | .165 – .186 |
 
-
-
-Home Network: 198.132.221.0/24, 255.255.255.0
-
-Family Subnet: 198.132.221.0/26, 255.255.255.192
-
-Guest Subnet: 198.132.221.64/27. 255.255.255.224
 
 Pool1: Family Device Pool
 Net: 198.132.221.0/26, Max: 62 Addresses
