@@ -23,8 +23,10 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - SSH Management (ToDo)
 - Port Security (ToDo)
 - BPDU Guard (ToDo)
-- DHCP Snooping (ToDo Tomorrow)
-- Synamic ARP Inspect (ToDo Tomorrow)
+- DHCP Snooping
+  - Setup on Parent, Son and Daughter SW
+- Dynamic ARP Inspect
+  - Setup on Parent, Son and Daughter SW
 - Disabling unused interfaces on routers and switches for enhanced security
 - Banner?
 - Syslog (ToDo)
@@ -142,4 +144,10 @@ Unused ports on routers and switches have been disabled to enhance security. Thi
 ### DHCP Snooping
 <p align="center">
   <img alt="DHCP Snooping" src="https://github.com/user-attachments/assets/4b98cb61-820c-4c91-a1f3-34b4454f77e0" />
+</p>
+
+
+### Dynamic ARP Inspection
+<p align="center">
+  <img alt="Dynamic ARP Inspection" src="https://github.com/user-attachments/assets/dba85ec7-a088-4cb9-b040-8d5fb92f9f11" />
 </p>
