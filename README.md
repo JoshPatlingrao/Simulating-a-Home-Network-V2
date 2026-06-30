@@ -64,6 +64,18 @@ __Step 3: Secure Privileged Mode__
 </p>
 
 ### Subnetting and DHCP Pools
+
+| VLAN  | Network | Subnet | Usable Hosts | Gateway (SVI) | Broadcast Address | DHCP Range |
+| --- | --- | --- | --- | --- | --- | --- |
+| 10 | Family | 198.132.221.0/26 | 62 | 198.132.221.62 | 198.132.221.63 | .1 - 62 |
+| 20 | Guest |
+| 30 | Parent |
+| 40 | Son |
+| 50 | Daughter |
+| Transit | Router <-> L3 Switch |
+
+
+
 Home Network: 198.132.221.0/24, 255.255.255.0
 
 Family Subnet: 198.132.221.0/26, 255.255.255.192
