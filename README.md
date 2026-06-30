@@ -137,3 +137,9 @@ __Step 1: Create VLAN and SVI__
 </p>
 
 Unused ports on routers and switches have been disabled to enhance security. This prevents the network devices from being used as either an attack vector or as a source of disruption from unwanted hosts.
+
+
+### DHCP Snooping
+<p align="center">
+  <img alt="DHCP Snooping" src="https://github.com/user-attachments/assets/4b98cb61-820c-4c91-a1f3-34b4454f77e0" />
+</p>
