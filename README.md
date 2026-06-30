@@ -14,7 +14,9 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - Static IPv4 address and DHCP configuration.
 - ACL (ToDo Tomorrow)
   - For the printer only family devices and network can access, not guests
+  - Guest Network can't reach Parent, Son and Daughter
   - Work devices can't be reached by family devices but other devices within their networks can
+    - I.E. Other devices can't reach Son Work Laptop, but Son PC can reach it
 - Voice VLAN (ToDo)
 - WiFi Security (ToDo)
 - VPN for WFH (ToDo)
@@ -30,7 +32,7 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - Disabling unused interfaces on routers and switches for enhanced security
 - Banner?
 - Syslog (ToDo)
-- NTP (ToDo)
+- NTP (ToDo Tomorrow)
 
 ### Tools Used
 - Cisco Packet Tracer
