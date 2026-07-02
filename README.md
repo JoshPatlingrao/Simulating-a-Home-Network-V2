@@ -12,13 +12,12 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - Configuring VLANs to group devices based on network, using both access and trunk ports.
 - Integration of wireless AP and configuration of SSID and its 2.4GHz channel
 - Static IPv4 address and DHCP configuration.
-- ACL (ToDo Tomorrow)
+- ACL
   - For the printer only family devices and network can access, not guests
-  - Guest Network can't reach Parent, Son and Daughter
-  - Work devices can't be reached by family devices but other devices within their networks can
-    - I.E. Other devices can't reach Son Work Laptop, but Son PC can reach it
-- Voice VLAN (ToDo)
-- WiFi Security (ToDo)
+  - Guest Network can't reach Parent network
+- Voice VLAN
+  - For Mom's Work
+- WiFi Security
 - VPN for WFH (ToDo)
 - NAT (ToDo)
 - QoS (ToDo)
@@ -135,12 +134,29 @@ __Step 1: Create VLAN and SVI__
 </p>
 
 
-### Disable Unused Ports
+### Implement ACLs
+To implement photo
+
+
+## WiFi Security
+Family AP Pass: ourFamilyWifi
+
 <p align="center">
-  <img alt="Disable Unused Ports" src="https://github.com/user-attachments/assets/faeed67f-b1c0-42b1-a30f-20fb82601961" />
+  <img alt="Family AP" src="https://github.com/user-attachments/assets/54b43b19-9b51-4197-b2c6-55ef13dd1f91" />
 </p>
 
-Unused ports on routers and switches have been disabled to enhance security. This prevents the network devices from being used as either an attack vector or as a source of disruption from unwanted hosts.
+Guest AP Pass: welcome123
+
+### Implement Voice VLAN
+<p align="center">
+  <img alt="VoIP Diagram" src="https://github.com/user-attachments/assets/3d1526fd-0425-4500-aaaa-a64c3d44bbc1" />
+</p>
+
+<p align="center">
+  <img alt="Adding VLAN 60" src="https://github.com/user-attachments/assets/6e6c594d-b3a8-4a31-ae16-c1ce018ecd10" />
+  <img alt="Updated Trunk" src="https://github.com/user-attachments/assets/b6fd5071-cfd3-4fdf-aa95-6b28d2dac158" />
+</p>
+
 
 
 ### DHCP Snooping
@@ -153,3 +169,11 @@ Unused ports on routers and switches have been disabled to enhance security. Thi
 <p align="center">
   <img alt="Dynamic ARP Inspection" src="https://github.com/user-attachments/assets/dba85ec7-a088-4cb9-b040-8d5fb92f9f11" />
 </p>
+
+
+### Disable Unused Ports
+<p align="center">
+  <img alt="Disable Unused Ports" src="https://github.com/user-attachments/assets/faeed67f-b1c0-42b1-a30f-20fb82601961" />
+</p>
+
+Unused ports on routers and switches have been disabled to enhance security. This prevents the network devices from being used as either an attack vector or as a source of disruption from unwanted hosts.
