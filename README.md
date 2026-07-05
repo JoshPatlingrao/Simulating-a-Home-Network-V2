@@ -19,7 +19,7 @@ This project is a rebuild of the previous Home Network Simulation and to display
   - For Mom's Work
 - WiFi Security
 - VPN for WFH (ToDo)
-- NAT (ToDo)
+- NAT
 - QoS (ToDo)
 - SSH Management (ToDo)
 - Port Security (ToDo)
@@ -147,6 +147,7 @@ Family AP Pass: ourFamilyWifi
 
 Guest AP Pass: welcome123
 
+
 ### Implement Voice VLAN
 <p align="center">
   <img alt="VoIP Diagram" src="https://github.com/user-attachments/assets/3d1526fd-0425-4500-aaaa-a64c3d44bbc1" />
@@ -177,3 +178,52 @@ Guest AP Pass: welcome123
 </p>
 
 Unused ports on routers and switches have been disabled to enhance security. This prevents the network devices from being used as either an attack vector or as a source of disruption from unwanted hosts.
+
+
+### NAT/PAT
+
+__Step 1: Setup Inside and Outside Interfaces__
+<p align="center">
+  <img alt="In and Out" src="https://github.com/user-attachments/assets/ac7291c9-f78c-44c1-b202-9aae8cb0c59f" />
+</p>
+
+
+__Step 2: Define Network to be Translated__
+<p align="center">
+  <img alt="ACL" src="https://github.com/user-attachments/assets/477552bb-7ab7-4820-be70-5b6e999b68eb" />
+</p>
+
+
+__Step 3: PAT (Overload)__
+ip nat inside source list 1 interface GigabitEthernet0/1 overload
+
+
+__Step 4: Setup Routes__
+- Static Route
+  - ip route 0.0.0.0 0.0.0.0 11.0.0.2
+ 
+__Step 5: Verify__
+- Dad Work Startion can reach the router on Company A
+<p align="center">
+  <img alt="Success" src="https://github.com/user-attachments/assets/cba2f461-e7ed-4a30-a563-2e58b45174ec" />
+</p>
+
+Proof of PAT
+<p align="center">
+  <img alt="Working PAT" src="https://github.com/user-attachments/assets/e7138701-182a-46cd-b16f-9c4d5b1dec56" />
+</p>
+
+
+### BPDU Guard
+
+__Step 1: Enable Globally on All Switches__
+<p align="center">
+  <img alt="BPDU" src="https://github.com/user-attachments/assets/f5e9acdc-1d74-40b9-99ce-0df5628be4e9" />
+</p>
+
+__Step 2: Enable Access Ports__
+<p align="center">
+  <img alt="Port Enable" src="https://github.com/user-attachments/assets/ceaf2c99-51e8-44e7-8f5b-9e8ef3801122" />
+</p>
+
+__Step 3: Verify__
