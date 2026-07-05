@@ -23,7 +23,7 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - QoS (ToDo)
 - SSH Management (ToDo)
 - Port Security (ToDo)
-- BPDU Guard (ToDo)
+- BPDU Guard
 - DHCP Snooping
   - Setup on Parent, Son and Daughter SW
 - Dynamic ARP Inspect
