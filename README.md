@@ -18,7 +18,7 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - Voice VLAN
   - For Mom's Work
 - WiFi Security
-- VPN for WFH (ToDo)
+- VPN for WFH (To document)
 - NAT
 - QoS (ToDo)
 - SSH Management (ToDo)
@@ -227,3 +227,15 @@ __Step 2: Enable Access Ports__
 </p>
 
 __Step 3: Verify__
+
+
+### NTP
+
+__Step 1: Turn on NTP on Internet Server__
+
+__Step 2: Turn Edge Router Into an NTP Client__
+
+__Step 3: Configure Edge Router as NTP Master for Home Network__
+- ntp authentication-k 1 md5 HomeNet2026
+
+__Step 4: Configure Main Switch as NTP Client to Edge Router__
