@@ -145,6 +145,10 @@ __Step 1: Create VLAN and SVI__
 
 
 ### Implement ACLs
+
+THe purpose of the ACL will be fulfill two simple purposes
+- To prevent guest devices from accessing the Family Printer
+- To prevent guest devices from reaching the parents, son and daughter subnets, which are dedicated for their private or work devices.
 To implement photo
 
 
