@@ -68,12 +68,12 @@ __Step 3: Secure Privileged Mode__
 
 ### Subnetting and DHCP Pools
 
-The family network will be split into 5 subnets.
-- Family: a shared subnet for personal family devices
+The family network will be split into 5 subnets. The largest will be the Family network as it's a shared subnet for all family members. All other subnets will have 30 usable addresses for their respective devices.
+- Family: a shared subnet for family devices
 - Guest: a subnet for guest devices to connect to
-- Parents: a subnet for parents personal and work devices
-- Son: a subnet for son personal and work devices
-- Daughter: a subnet for daughter personal and work devices
+- Parents: a subnet for parents work devices
+- Son: a subnet for son work devices
+- Daughter: a subnet for daughter work devices
 
 | VLAN  | Network | Subnet | Usable Hosts | Gateway (SVI) | DHCP Range |
 | :---: | :---: | :---: | :---: | :---: | :---: |
