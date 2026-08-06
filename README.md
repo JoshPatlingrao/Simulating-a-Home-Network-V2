@@ -160,6 +160,14 @@ Family AP Pass: ourFamilyWifi
 
 Guest AP Pass: welcome123
 
+<p align="center">
+  <img alt="Guest AP" src="https://github.com/user-attachments/assets/2aa4c6be-6de2-45ee-bedf-42aa287a1f87" />
+</p>
+
+There are 2 separate WAPs for the home network. One reserved for the family which has full access to the home network and the other for guests which has limitations on network access.
+- Both APs use the 2.4GHz channel. Since both APs are inside the house, Family AP is set to channel 1, while Guest AP is set to 6 to ensure they don't interfere with each other.
+- Both APs use WPA2-PSK as the most secure form of authentication, and use AES for encryption.
+
 
 ### Implement Voice VLAN
 <p align="center">
