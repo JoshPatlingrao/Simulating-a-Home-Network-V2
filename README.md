@@ -104,7 +104,7 @@ Class of address?
 
 __Step 1: Configured Device Addresses and Gateway__
 
-All devices will have their gateway address set to 198.132.221.254, for interface G0/0 of the router. The 
+The address range is Class C range for small LAN usage. All devices will have their gateway address set to 198.132.221.254, for interface G0/0 of the router.
 - Dad Work Station: 198.132.221.1
 - Son PC: 198.132.221.2
 - Daughter PC: 198.132.221.3
