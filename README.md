@@ -96,8 +96,7 @@ DNS: 9.9.9.9
 Default Gateway: 198.132.221.254
 
 ### Configure Static IPv4 and Gateway Address on PC and Printer
-Why were these addresses chosen?
-Class of address?
+
 <p align="center">
   <img alt="Static IPv4" src="https://github.com/user-attachments/assets/2c18492d-ca0b-482d-a085-2a1aee713762" />
 </p>
