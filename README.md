@@ -179,7 +179,7 @@ There are 2 separate WAPs for the home network. One reserved for the family whic
   <img alt="Updated Trunk" src="https://github.com/user-attachments/assets/b6fd5071-cfd3-4fdf-aa95-6b28d2dac158" />
 </p>
 
-
+In the Parent's Subnet, the Mom needed to use VoIP for her work so a phone and an additional VLAN 60 was created to include the traffic of the phone to the subnet without needing to create another trunk port.
 
 ### DHCP Snooping
 <p align="center">
