@@ -181,6 +181,8 @@ There are 2 separate WAPs for the home network. One reserved for the family whic
 
 In the Parent's Subnet, the Mom needed to use VoIP for her work so a phone and an additional VLAN 60 was created to include the traffic of the phone to the subnet without needing to create another trunk port.
 
+VLAN 60 was added on the trunk port as another allowed VLAN.
+
 ### DHCP Snooping
 <p align="center">
   <img alt="DHCP Snooping" src="https://github.com/user-attachments/assets/4b98cb61-820c-4c91-a1f3-34b4454f77e0" />
