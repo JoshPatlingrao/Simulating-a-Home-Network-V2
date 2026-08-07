@@ -188,12 +188,14 @@ VLAN 60 was added on the trunk port as another allowed VLAN.
   <img alt="DHCP Snooping" src="https://github.com/user-attachments/assets/4b98cb61-820c-4c91-a1f3-34b4454f77e0" />
 </p>
 
+Implemented DHCP snooping on Parent, Son and Daughter switch to prevent hostile DHCP servers from affecting the devices in the subnets.
 
 ### Dynamic ARP Inspection
 <p align="center">
   <img alt="Dynamic ARP Inspection" src="https://github.com/user-attachments/assets/dba85ec7-a088-4cb9-b040-8d5fb92f9f11" />
 </p>
 
+Implemented DHCP snooping on Parent, Son and Daughter switch to prevent ARP Spoofing and poisoning from affecting the devices in the subnets.
 
 ### Disable Unused Ports
 <p align="center">
@@ -201,7 +203,6 @@ VLAN 60 was added on the trunk port as another allowed VLAN.
 </p>
 
 Unused ports on routers and switches have been disabled to enhance security. This prevents the network devices from being used as either an attack vector or as a source of disruption from unwanted hosts.
-
 
 ### NAT/PAT
 
