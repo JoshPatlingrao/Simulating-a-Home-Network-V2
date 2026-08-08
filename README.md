@@ -233,17 +233,17 @@ __Step 4: Setup Routes__
 
 Default route is configured to point to 11.0.0.2
 
-__Step 5: Verify__
-- Dad Work Startion can reach the router on Company A
+__Step 5: Verify__.
 <p align="center">
-  <img alt="Success" src="https://github.com/user-attachments/assets/cba2f461-e7ed-4a30-a563-2e58b45174ec" />
+  <img width="1227" height="916" alt="image" src="https://github.com/user-attachments/assets/4c179975-2266-4dc4-bd26-06ee8b1b632e" />
 </p>
+Dad Work Station, Son PC and Daughter PC can can reach the Internet Server
 
 Proof of PAT
 <p align="center">
-  <img alt="Working PAT" src="https://github.com/user-attachments/assets/e7138701-182a-46cd-b16f-9c4d5b1dec56" />
+  <img alt="PAT" src="https://github.com/user-attachments/assets/37930ecf-1d85-415a-a6a5-33d73690c983" />
 </p>
-
+This is PAT in action, where multiple devices within the home network can reach the Internet Server and are translated into the same external IP but through different ports.
 
 ### BPDU Guard
 
