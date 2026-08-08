@@ -223,9 +223,13 @@ ip nat inside source list 1 interface GigabitEthernet0/1 overload
 
 
 __Step 4: Setup Routes__
-- Static Route
-  - ip route 0.0.0.0 0.0.0.0 11.0.0.2
- 
+
+<p align="center">
+  <img alt="Default Route" src="https://github.com/user-attachments/assets/e7aeb199-33cb-4674-895d-4d2220e1a6c4" />
+</p>
+
+Default route is configured to point to 11.0.0.2
+
 __Step 5: Verify__
 - Dad Work Startion can reach the router on Company A
 <p align="center">
