@@ -239,7 +239,6 @@ __Step 5: Verify__.
 </p>
 Dad Work Station, Son PC and Daughter PC can can reach the Internet Server
 
-Proof of PAT
 <p align="center">
   <img alt="PAT" src="https://github.com/user-attachments/assets/37930ecf-1d85-415a-a6a5-33d73690c983" />
 </p>
