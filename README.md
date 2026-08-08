@@ -219,6 +219,9 @@ __Step 2: Define Network to be Translated__
 
 
 __Step 3: PAT (Overload)__
+<p align="center">
+  <img alt="PAT Configuration" src="https://github.com/user-attachments/assets/14c4325d-cf53-493f-86dc-0b4c55721b36" />
+</p>
 ip nat inside source list 1 interface GigabitEthernet0/1 overload
 
 
