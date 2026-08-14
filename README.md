@@ -262,6 +262,9 @@ __Step 3: Verify__
 ### NTP
 
 __Step 1: Turn on NTP on Internet Server__
+<p align="center">
+  <img alt="NTPServer" src="https://github.com/user-attachments/assets/6de2ea46-0351-49ee-8b1d-7f36142f4ac1" />
+</p>
 
 __Step 2: Turn Edge Router Into an NTP Client__
 
