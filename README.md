@@ -267,6 +267,9 @@ __Step 1: Turn on NTP on Internet Server__
 </p>
 
 __Step 2: Turn Edge Router Into an NTP Client__
+<p align="center">
+  <img alt="NTP Client" src="https://github.com/user-attachments/assets/7eaa0ba0-9f5e-41ec-9c39-bc92b860c819" />
+</p>
 
 __Step 3: Configure Edge Router as NTP Master for Home Network__
 - ntp authentication-k 1 md5 HomeNet2026
