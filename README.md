@@ -272,6 +272,9 @@ __Step 2: Turn Edge Router Into an NTP Client__
 </p>
 
 __Step 3: Configure Edge Router as NTP Master for Home Network__
-- ntp authentication-k 1 md5 HomeNet2026
+<p align="center">
+  <img alt="NTP Auth" src="https://github.com/user-attachments/assets/682e75d3-0b96-4733-a951-2f4ae53dcec6" />
+</p>
+The key is 'HomeNet2026'
 
 __Step 4: Configure Main Switch as NTP Client to Edge Router__
