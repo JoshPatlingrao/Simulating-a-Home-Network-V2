@@ -277,4 +277,8 @@ __Step 3: Configure Edge Router as NTP Master for Home Network__
 </p>
 The key is 'HomeNet2026'
 
+
 __Step 4: Configure Main Switch as NTP Client to Edge Router__
+
+
+__Step 5: Configure Parent, Son and Daughter Switch as NTP Client to Main Siwtch__
