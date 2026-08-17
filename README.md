@@ -277,8 +277,19 @@ __Step 3: Configure Edge Router as NTP Master for Home Network__
 </p>
 The key is 'HomeNet2026'
 
-
 __Step 4: Configure Main Switch as NTP Client to Edge Router__
+<p align="center">
+  <img width="631" height="211" alt="image" src="https://github.com/user-attachments/assets/bfa10741-e73b-4cef-b7e8-e424ee28193c" />
+</p>
 
 
-__Step 5: Configure Parent, Son and Daughter Switch as NTP Client to Main Siwtch__
+### VPN (Tunnels)
+- No OSPF on outside routers
+
+
+Tunnel Plan
+| Tunnel  | Connection | Edge Side | Company Side | Tunnel Destination |
+| :---: | :---: | :---: | :---: | :---: |
+| Tunnel1 | Mom > Company A | 172.16.1.1/30 | 172.16.1.2/30 | 14.0.0.2 |
+| Tunnel2 | Son > Company B | 172.16.2.1/30 | 172.16.2.2/30 | 15.0.0.2 |
+| Tunnel3 | Daughter > Company C | 172.16.3.1/30 | 172.16.3.2/30 | 16.0.0.2 |
