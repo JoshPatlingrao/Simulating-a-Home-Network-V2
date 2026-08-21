@@ -276,12 +276,13 @@ __Step 4: Configure Main Switch as NTP Client to Edge Router__
 
 
 ### VPN (GRE Tunnels)
-- No OSPF on outside routers
-
+The external networks from the Home network has been manually configured for this project. The company networks have also been simplified for the sake of this demonstration.
 
 <p align="center">
   <img width="1314" height="881" alt="image" src="https://github.com/user-attachments/assets/c8d8da4f-06d0-4bb8-b5a3-cdb179614a77" />
 </p>
+
+This is the current layout of the network and where each home office device will be able to reach the respective company remote server.
 
 Tunnel Plan
 | Tunnel  | Connection | Edge Side | Company Side | Tunnel Destination |
