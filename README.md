@@ -283,9 +283,13 @@ __Step 4: Configure Main Switch as NTP Client to Edge Router__
 </p>
 
 
-### VPN (Tunnels)
+### VPN (GRE Tunnels)
 - No OSPF on outside routers
 
+
+<p align="center">
+  <img width="1314" height="881" alt="image" src="https://github.com/user-attachments/assets/c8d8da4f-06d0-4bb8-b5a3-cdb179614a77" />
+</p>
 
 Tunnel Plan
 | Tunnel  | Connection | Edge Side | Company Side | Tunnel Destination |
@@ -293,3 +297,44 @@ Tunnel Plan
 | Tunnel1 | Mom > Company A | 172.16.1.1/30 | 172.16.1.2/30 | 14.0.0.2 |
 | Tunnel2 | Son > Company B | 172.16.2.1/30 | 172.16.2.2/30 | 15.0.0.2 |
 | Tunnel3 | Daughter > Company C | 172.16.3.1/30 | 172.16.3.2/30 | 16.0.0.2 |
+
+
+__Step 1: Configure Tunnel on Home Side__
+<p align="center">
+  <img width="279" height="252" alt="image" src="https://github.com/user-attachments/assets/c5bc4b87-8c94-4e5d-8411-5c8befa9a083" />
+</p>
+
+__Step 2: Configure Tunnel on Company Side__
+
+Company A
+<p align="center">
+  <img width="278" height="66" alt="image" src="https://github.com/user-attachments/assets/3641dbb6-5c20-4222-9e35-31fe56f9a20a" />
+</p>
+
+Company B
+<p align="center">
+  <img width="279" height="69" alt="image" src="https://github.com/user-attachments/assets/3ba3babe-9d2b-40a3-bff0-bb6bd08276e0" />
+</p>
+
+Company C
+<p align="center">
+  <img width="273" height="69" alt="image" src="https://github.com/user-attachments/assets/ebd46878-33ec-4e7d-9e28-c287c4ed3308" />
+</p>
+
+__Step 3: Confirm Connection__
+
+Mom > Company A
+<p align="center">
+  <img width="328" height="54" alt="image" src="https://github.com/user-attachments/assets/82d68803-3eb9-493f-bb9c-3d911ea11ae3" />
+</p>
+
+Edge Router Tunnel Routes
+<p align="center">
+  <img width="439" height="275" alt="image" src="https://github.com/user-attachments/assets/7cba394a-4e3b-4f4e-9b59-adeaeb2eb492" />
+</p>
+
+Pinging Company Side Tunnel Interface
+Company A
+<p align="center">
+  <img width="486" height="82" alt="image" src="https://github.com/user-attachments/assets/eb3f6d38-0888-417b-abc9-2984d32836b1" />
+</p>
