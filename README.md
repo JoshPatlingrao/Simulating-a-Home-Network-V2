@@ -23,7 +23,6 @@ This project is a rebuild of the previous Home Network Simulation and to display
 - BPDU Guard
 - DHCP Snooping and Dynamic ARP Inspection (Parent, Son and Daughter SW)
 - Disabling unused interfaces on routers and switches for enhanced security
-- Syslog (ToDo)
 - NTP
 
 ### Tools Used
