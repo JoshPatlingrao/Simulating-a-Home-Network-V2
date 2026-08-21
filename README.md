@@ -16,22 +16,15 @@ This project is a rebuild of the previous Home Network Simulation and to display
   - For the printer only family devices and network can access, not guests
   - Guest Network can't reach Parent network
 - Voice VLAN
-  - For Mom's Work
 - WiFi Security
-- VPN for WFH (To document)
+- VPN for WFH (GRE Tunnels)
 - NAT
-- QoS (ToDo)
-- SSH Management (ToDo)
 - Port Security (ToDo)
 - BPDU Guard
-- DHCP Snooping
-  - Setup on Parent, Son and Daughter SW
-- Dynamic ARP Inspect
-  - Setup on Parent, Son and Daughter SW
+- DHCP Snooping and Dynamic ARP Inspection (Parent, Son and Daughter SW)
 - Disabling unused interfaces on routers and switches for enhanced security
-- Banner?
 - Syslog (ToDo)
-- NTP (ToDo Tomorrow)
+- NTP
 
 ### Tools Used
 - Cisco Packet Tracer
