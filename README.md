@@ -285,13 +285,12 @@ The external networks from the Home network has been manually configured for thi
 This is the current layout of the network and where each home office device will be able to reach the respective company remote server.
 
 Tunnel Plan
-<table align="center">
+
 | Tunnel  | Connection | Edge Side | Company Side | Tunnel Destination |
 | :---: | :---: | :---: | :---: | :---: |
 | Tunnel1 | Mom > Company A | 172.16.1.1/30 | 172.16.1.2/30 | 14.0.0.2 |
 | Tunnel2 | Son > Company B | 172.16.2.1/30 | 172.16.2.2/30 | 15.0.0.2 |
 | Tunnel3 | Daughter > Company C | 172.16.3.1/30 | 172.16.3.2/30 | 16.0.0.2 |
-</table>
 
 
 __Step 1: Configure Tunnel on Home Side__
