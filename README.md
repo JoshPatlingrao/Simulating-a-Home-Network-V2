@@ -284,7 +284,7 @@ The external networks from the Home network has been manually configured for thi
 
 This is the current layout of the network and where each home office device will be able to reach the respective company remote server.
 
-Tunnel Plan
+The tunnel plan is shown on the table below.
 
 | Tunnel  | Connection | Edge Side | Company Side | Tunnel Destination |
 | :---: | :---: | :---: | :---: | :---: |
